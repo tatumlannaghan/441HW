@@ -4,6 +4,8 @@ body {
 h1 { color: rgb(18, 17, 16);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     text-align: center;
+    border: 5px;
+    border-color: rgb(113, 57, 18);
 }
 h2 {
     color: rgb(18, 17, 16);
