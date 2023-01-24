@@ -1,5 +1,7 @@
 body {background-color: darkolivegreen;}
-h1 { color: tan;
+h1 { color:darkslategrey;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+    text-shadow: -1px 1px 0 #FFF;
 }
 p { color: azure;}
