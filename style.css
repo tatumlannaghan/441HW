@@ -6,13 +6,18 @@ h1 { color: rgb(18, 17, 16);
     text-align: center;
     border-style: solid;
     border-width: 5px;
-    border-color: rgb(113, 57, 18);
+    border-color: rgb(163, 68, 0);
 }
 h2 {
     color: rgb(18, 17, 16);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(163, 68, 0);
 }
 p { color: azure;
-    text-align: center;
+    text-align: center;border-style: solid;
+    border-width: 5px;
+    border-color: rgb(12, 50, 6);
 }
