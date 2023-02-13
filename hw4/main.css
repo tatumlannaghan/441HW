@@ -1,0 +1,14 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(167, 138, 189);
+    text-align: center;
+    color:rgb(200, 215, 237)
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    color: rgb(86, 63, 96);
+}
