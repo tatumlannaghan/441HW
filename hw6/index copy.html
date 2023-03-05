@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>
+        Memory Matching
+    </title>
+    <script src="java.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </link>
+</head>
+
+<body onload="printBlanks();">
+    <h1>Memory Game</h1>
+    <h3>Test Your Luck, Partner!</h3>
+
+    <div class="divTable">
+        <div class="divTableBody">
+            <div class="divTableRow">
+                <div class="divTableCell"><img src="" id="image1" width="250" height="250" class="center" onclick="flipImage(0);"></div>
+                <div class="divTableCell"><img src="" id="image2" width="250" height="250" class="center" onclick="flipImage(1);"></div>
+            </div>
+            <div class="divTableRow">
+                <div class="divTableCell"><img src="" id="image3" width="250" height="250" class="center" onclick="flipImage(2);"></div>
+                <div class="divTableCell"><img src="" id="image4" width="250" height="250" class="center" onclick="flipImage(3);"></div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    
+    <button onClick="window.location.reload();" class="center"> Start Over </button>
+
+</body>
+
+</html>
