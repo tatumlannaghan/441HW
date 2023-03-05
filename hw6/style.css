@@ -32,6 +32,7 @@ button{
 	width: 100%;
 }
 .divTableRow {
+    background-color: #b30606;
 	display: table-row;
 }
 .divTableHeading {
@@ -55,4 +56,9 @@ button{
 }
 .divTableBody {
 	display: table-row-group;
+}
+.divIntroPage {
+    background-color: #b30606;
+    text-align: center;
+    
 }
