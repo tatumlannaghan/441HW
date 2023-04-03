@@ -1,0 +1,1 @@
+This week was hard!! I really think I achieved the final result in the most roundabout way possible. I bet there is a much easier (and cleaner) way to get the image to change, but I discovered this way and it worked for me. 
