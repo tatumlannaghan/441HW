@@ -1,0 +1,52 @@
+#circle {
+    width: 50px;
+    height: 50px;
+    background: rgb(218, 176, 148);
+    position:absolute ;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+  }
+
+  .first{
+    background: rgb(178, 218, 178);
+    color:rgb(51, 66, 51);
+    text-align: center;
+  }
+
+  .second{
+    background: rgb(178, 190, 218);
+    color:rgb(95, 102, 120);
+    text-align: center;
+  }
+
+  .third{
+    background: rgb(227, 173, 173);
+    color:rgb(117, 84, 84);
+    text-align: center;
+  }
+
+  .fourth{
+    background: rgb(227, 203, 162);
+    color:rgb(151, 134, 104);
+    text-align: center;
+  }
+
+ .center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background: rgb(178, 190, 218);
+    color:rgb(95, 102, 120);
+}
+
+  body{
+      background-color: rgb(132, 156, 202);
+  }
