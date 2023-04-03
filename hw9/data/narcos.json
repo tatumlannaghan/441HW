@@ -1,0 +1,14 @@
+{
+    "name" : "Narcos",
+    "type" : "Scripted",
+    "language" : "English",
+    "life" : {
+        "premiered" : "2015",
+        "ended" : "2017"
+    },
+    "starring" : [
+        "Wagner Moura",
+        "Pedro Pascal",
+        "Boyd Holbrook"
+    ]
+}

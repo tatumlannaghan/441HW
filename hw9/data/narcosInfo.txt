@@ -1,0 +1,5 @@
+<narcos>
+	<name>Narcos</name>
+	<type>Scripted</type>
+	<language>English</language>
+</narcos>
