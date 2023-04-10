@@ -1,0 +1,1 @@
+This week was super fun! I think the lessons really helped me understand the concept more. I liked adding the music too it spices up the website :)
