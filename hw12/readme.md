@@ -1,0 +1,1 @@
+I don't think I understood what I was doing this week. My project turned out and works but is missing some aspects which is unfortunate but I am still proud of what I accomplished.
