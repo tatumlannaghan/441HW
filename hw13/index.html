@@ -48,6 +48,7 @@
     var bubbleScore =0;
     var bubblescoreText;
 
+
     var game = new Phaser.Game(config);
 
 //images 
@@ -164,6 +165,8 @@
 
         bubblescoreText = this.add.text(16, 40, 'Bubble Score: 0', { fontSize: '32px', fill: '#000' });
 
+
+
 //colliders
 
         this.physics.add.collider(player, platforms);
@@ -173,10 +176,6 @@
         this.physics.add.collider(spikes, grounds);
         this.physics.add.collider(bubbles, platforms);
         
-
-
-        
-
 //overlap
 
         this.physics.add.overlap(player, stars, collectStar, null, this);
@@ -239,7 +238,7 @@
 
             if (stars.countActive(true) === 0)
         {
-
+    
 //  new stars to collect
 
             stars.children.iterate(function (child) {
