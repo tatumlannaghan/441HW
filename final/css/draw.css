@@ -1,0 +1,35 @@
+@media screen and (max-width: 600px) {
+    .menu a {
+      float: none;
+      display: block;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    background-color:#7F636E;
+    border-bottom: 2px solid #C8AB83;
+    position: absolute;
+    width: 100%;
+}
+
+.top-bar * {
+    margin: 5px 10px;
+}
+
+#draw {
+    display: block;
+}
+
+.button{
+    background-color: #55868C;
+    color: #CACAAA;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 16px;
+}
