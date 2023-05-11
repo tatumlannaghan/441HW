@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My first three.js app</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <script
+        src="https://montana-media-arts.github.io/441-WebTech-Spring2022-Examples/Week%2014/library/three.min.js"></script>
+
+</body>
+<script>
+    var scene = new THREE.Scene();
+    var camera = new THREE.PerspectiveCamera(
+        75,
+        window.innerWidth / window.innerHeight,
+        0.1,
+        1000
+    );
+    var cube, cube2;
+
+    var renderer = new THREE.WebGLRenderer();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    document.body.appendChild(renderer.domElement);
+
+    var xDistance = 10;
+    var zDistance = 10;
+    var geometry = new THREE.BoxGeometry();
+    var material = new THREE.MeshBasicMaterial({
+        color: 0x00ff00
+    });
+    
+    var cube = new THREE.Mesh(geometry, material);
+    scene.add(cube);
+    
+
+    cube.setColor = function(color){
+     cube.material.color.set(color);
+}
+    cube.setColor(0x0000FF)
+
+
+    var xOffset = -5;
+    for (var i = 0; i < 4; i++) {
+        for (var j = 0; j < 3; j++) {
+            var mesh = new THREE.Mesh(geometry, material);
+            mesh.position.x = (xDistance * i) + xOffset;
+            mesh.position.z = (zDistance * j);
+            scene.add(mesh);
+        }
+    };
+
+    camera.position.z = 15;
+
+    
+
+    function animate() {
+        requestAnimationFrame(animate);
+        cube.rotation.x += 0.01;
+        cube.rotation.y += 0.01;
+        
+        renderer.render(scene, camera);
+    }
+    animate();
+
+    
+
+
+</script>
+
+</html>
