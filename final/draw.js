@@ -70,10 +70,6 @@ canvas.mousedown(function (e) {
         mouseEvent(e);
 });
 
-//save
-$('#save-btn').click(function () {
-    window.open(canvas[0].toDataURL());
-});
 //undo
 $('#undo-btn').click(function () {
     strokes.pop();
